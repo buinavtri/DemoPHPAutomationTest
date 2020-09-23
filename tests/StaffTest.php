@@ -13,7 +13,7 @@ class StaffTest extends TestCase
         $staff->first_name = "Tri";
         $staff->last_name = "Bui";
 
-        $this->assertEquals('Tri Van Bui', $staff->getFullName());
+        $this->assertEquals('Tri Bui', $staff->getFullName());
     }
     public function testFullNameIsEmptyByDefault()
     {
